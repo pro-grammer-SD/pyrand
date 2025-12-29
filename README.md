@@ -40,7 +40,7 @@ import pyrand
 pyrand.set_seed(42)
 
 # Single random number
-x = pyrand.random()
+x = pyrand.randfloat()
 print("Random float:", x)
 
 # Random integer
@@ -64,7 +64,7 @@ print("Shuffled:", lst)
 | Function                   | Description                       |
 | -------------------------- | --------------------------------- |
 | `set_seed(seed)`           | Set RNG seed for reproducibility  |
-| `random()`                 | Random float [0, 1)               |
+| `randfloat()`                 | Random float [0, 1)               |
 | `randint(a, b)`            | Random integer between a and b    |
 | `rand_array(n, low, high)` | Generate array of n random floats |
 | `uniform(low, high)`       | Single uniform random float       |
